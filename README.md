@@ -1,6 +1,6 @@
-# Live Whispr Transcription with AI Hub
+# Live Transcription with AI Hub Whisper
 
-Streaming transcription application built with [Whispr Base En](https://aihub.qualcomm.com/compute/models/whisper_base_en?domain=Audio) from [Qualcomm AI Hub](https://aihub.qualcomm.com/).
+Streaming transcription application built with [Whisper Base En](https://aihub.qualcomm.com/compute/models/whisper_base_en?domain=Audio) from [Qualcomm AI Hub](https://aihub.qualcomm.com/).
 
 ### Table of Contents
 [1. Purpose](#purpose)<br>
@@ -11,7 +11,7 @@ Streaming transcription application built with [Whispr Base En](https://aihub.qu
 [6. Code of Conduct](#code-of-conduct)<br>
 
 ### Purpose
-This is an extensible base app for custom language transcription workflows using Whispr. Base performance is acceptable and can be improved.
+This is an extensible base app for custom language transcription workflows using Whisper. Base performance is acceptable and can be improved.
 
 ### Implementation
 This app was built for the Snapdragon X Elite but designed to be platform agnostic. Performance may vary on other hardware.
@@ -35,18 +35,18 @@ This app was built for the Snapdragon X Elite but designed to be platform agnost
         6. In a new PowerShell, run ffmpeg to verify installation
 1. Open a PowerShell instance and clone the repo
     ```
-    git clone https://github.com/thatrandomfrenchdude/simple-whispr-transcription.git
+    git clone https://github.com/thatrandomfrenchdude/simple-whisper-transcription.git
     ```
 2. Create and activate your virtual environment with reqs
     ```
     # 1. navigate to the cloned directory
-    cd simple-whispr-transcription
+    cd simple-whisper-transcription
 
     # 2. create the python virtual environment
-    python -m venv whispr-venv
+    python -m venv whisper-venv
 
     # 3. activate the virtual environment
-    ./whispr-venv/Scripts/Activate.ps1     # windows
+    ./whisper-venv/Scripts/Activate.ps1     # windows
 
     # 4. install the requirements
     pip install -r requirements.txt
