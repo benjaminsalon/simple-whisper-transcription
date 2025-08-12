@@ -1,0 +1,11 @@
+WORKING CONFIGURATION!!!
+
+
+- ONLY INSTALL onnxruntime-qnn and not both onnxruntime and onnxruntime-qnn otherwise it does not find the QNNExecutionProvider
+- Currently working with python3.12.11_x86
+- with custom models that Nick sent me: https://drive.google.com/drive/folders/14RzasqSFfgO4Wtbw_tZ1Qs3Y22F8lymY:
+    - add these two models in a folder called `models` at the root of the project
+
+INSTRUCTIONS for windows_arm64 with snapdgragon:
+
+- Install uv first: `powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"`
